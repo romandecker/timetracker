@@ -1,0 +1,13 @@
+API Token: 5d2d8224e447110328ec4f5285bbb971
+
+Workspace-ID: 190169
+
+List workspaces:
+curl -u 5d2d8224e447110328ec4f5285bbb971:api_token -X GET https://www.toggl.com/api/v8/workspaces
+
+curl -u 5d2d8224e447110328ec4f5285bbb971:api_token -X GET "https://toggl.com/reports/api/v2/weekly?workspace_id=123&since=2013-05-19&until=2013-05-20&user_agent=api_test"
+
+curl -v -u 5d2d8224e447110328ec4f5285bbb971:api_token -X GET "https://toggl.com/reports/api/v2/details?workspace_id=190169&since=2014-08-06&until=2014-08-07&user_agent=api_test"
+
+
+
